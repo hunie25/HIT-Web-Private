@@ -1,0 +1,21 @@
+body {
+    background-color: #0E1D34;
+}
+header h1 {
+    float: left;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    width: 1000px;
+    height: 30px;
+    justify-content: space-around;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+
+}
