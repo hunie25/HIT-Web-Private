@@ -1,0 +1,98 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(243, 166, 138);
+}
+
+.the {
+    background-image: linear-gradient(to bottom,lab(72.43% 29.32 48.65) , #ffffff00);
+    background-color: rgba(250, 248, 248, 0.918);
+    width: 350px;
+    height: 450px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 15px;
+    box-shadow: 0px 12px 12px rgb(127, 69, 11);
+    overflow: hidden;
+    backdrop-filter: blur(4px);
+    transition: all 0.3s ease;
+    transform: translateY(0);
+}
+
+.the:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0px 12px 15px rgb(85, 45, 6); 
+}
+img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-top: 35px;
+    margin-left: 100px;
+    object-fit: cover;
+    border: 3px solid lab(66.81% 41.39 63.89);
+}
+
+img:hover{
+  transform: scale(1.05);
+}
+
+h1 {
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: lab(49.34% 31.94 49.41);
+}
+
+h3 {
+    text-align: center;
+    color: lab(41.12% 35.71 50.93);
+}
+
+p {
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 18px;
+    color: lab(31.4% 7.64 14.87);
+    
+}
+
+.Icon {
+    text-align: center;
+    margin-top: 30px;
+}
+
+a {
+    color: lab(41.12% 35.71 50.93);
+    margin: 20px;
+    font-size: 25px;
+    border-radius: 50%;
+    object-fit: cover;
+    
+}
+
+a:hover {
+    color:lab(63.41% 49.93 70.09) ;
+}
+
+.fa-facebook {
+    scale: 1.2;
+    transform: scale(1.05);
+}
+
+.fa-linkedin-in{
+  scale: 1.2;
+  transform: scale(1.05);
+}
+.fa-solid{
+  scale: 1.2;
+  transform: scale(1.05);
+
+}
+
