@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let age = prompt("Nhap nam sinh cua ban: ");
+        let currentYear = new Date().getFullYear();
+        let userAge = parseInt(currentYear-age);
+        if (userAge < 18) {
+            alert("Ban chua du tuoi lai xe!");
+        }
+        else if (userAge === 18) {
+            alert("Ban vua du tuoi lai xe. Hay can than!");
+        }
+        else {
+            alert("Ban da du tuoi lai xe!")
+        }
+    </script>
+</body>
+</html>
