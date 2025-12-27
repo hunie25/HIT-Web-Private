@@ -1,0 +1,514 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+img {
+	max-width: 100%;
+	display: block;
+}
+a {
+	text-decoration: none;
+    color: white;
+}
+ul,
+ol {
+	list-style: none;
+}
+body {
+    background-color: #fffefc;
+}
+header {
+    background-image: url(Img/coffee_image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    color: white;
+    align-items: center;
+}
+
+h1 {
+    padding-top: 30px;
+    padding-left: 50px;
+    width: 300px;
+    float: left;
+}
+.header_menu ul{
+    display: flex;
+    padding-top: 30px;
+    padding-left: 150px;
+    width: 700px;
+    float: left;
+    
+}
+.header_menu ul li a {
+    margin: 30px;
+    font-size: 20px;
+}
+.SignIn {
+    display: flex;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-left: 200px;
+}
+.SignIn input {
+    margin-left: 20px;
+    background-color: #f9c06b;
+    border-radius: 40px;
+    width: 100px;
+    height: 60px;
+    font-size:20 ;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.SignIn p {
+    padding-top: 15px;
+    margin-right: 30px;
+    font-size: 20px;
+}
+.main {
+    padding-top: 150px;
+    padding-left: 50px;
+    font-size: 20px;
+}
+.Coffee {
+    padding-top: 20px;
+    font-size: 150px;
+}
+.main_under {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.main input {
+    background-color: #f9c06b;
+    border-radius: 40px;
+    width: 120px;
+    height: 60px;
+    font-size:20 ;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.Discover {
+    padding-top: 100px;
+}
+.Discover_left {
+    color: #60380a;
+    width: 700px;   
+    float: left;
+}
+.Discover_left h1 {
+    width: 700px;
+    font-size: 60px;
+    padding-bottom: 30px;
+}
+.Discover_left p {
+    margin-left: 50px;
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+.Discover_left input {
+    background-color: #f9c06b;
+    border-radius: 40px;
+    width: 120px;
+    height: 60px;
+    font-size:20 ;
+    font-weight: bold;
+    margin-left: 50px;
+}
+.Discover_right {
+    margin-left: 800px;
+}
+.Coffee_Style {
+    padding-top: 100px;
+}
+.Coffee_Style h1 {
+    text-align: center;
+    width: 1400px;
+    font-size: 60px;
+    color: #60380a;
+    padding-bottom: 30px;
+}
+.Coffee_Style p {
+    text-align: center;
+    font-size: 20px;
+}
+.Coffee_Style_Menu {
+   margin-left: 50px;
+   margin-top: 50px;
+   display: flex;
+   color: #60380a;
+}
+.Coffee_Style1 {
+    width: 300px;
+    height: 400px;
+    background-color: #fff9f1;
+    text-align: center;
+}
+.Coffee_Style1 img {
+    width: 300px;
+}
+.Coffee_Style1 h3 {
+    padding-top: 15px;
+    font-size: 30px;
+}
+.Coffee_Style1 p {
+    padding-top: 15px;
+}
+.Coffee_Style1 input {
+    background-color: #f9c06b;
+    border-radius: 40px;
+    width: 100px;
+    height: 60px;
+    font-size:20 ;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.Coffee_Style2 {
+    width: 300px;
+    height: 400px;
+    background-color: #fff9f1;
+    text-align: center;
+    margin-left: 35px;
+}
+.Coffee_Style2 img {
+    width: 300px;
+}
+.Coffee_Style2 h3 {
+    padding-top: 15px;
+    font-size: 30px;
+}
+.Coffee_Style2 p {
+    padding-top: 15px;
+}
+.Coffee_Style2 input {
+    background-color: #f9c06b;
+    border-radius: 40px;
+    width: 100px;
+    height: 60px;
+    font-size:20 ;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.Coffee_Style3 {
+    width: 300px;
+    height: 400px;
+    background-color: #fff9f1;
+    text-align: center;
+    margin-left: 35px;
+}
+.Coffee_Style3 img {
+    width: 300px;
+}
+.Coffee_Style3 h3 {
+    padding-top: 15px;
+    font-size: 30px;
+}
+.Coffee_Style3 p {
+    padding-top: 15px;
+}
+.Coffee_Style3 input {
+    background-color: #f9c06b;
+    border-radius: 40px;
+    width: 100px;
+    height: 60px;
+    font-size:20 ;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.Coffee_Style4 {
+    width: 300px;
+    height: 400px;
+    background-color: #fff9f1;
+    text-align: center;
+    margin-left: 35px;
+}
+.Coffee_Style4 img {
+    width: 300px;
+}
+.Coffee_Style4 h3 {
+    padding-top: 15px;
+    font-size: 30px;
+}
+.Coffee_Style4 p {
+    padding-top: 15px;
+}
+.Coffee_Style4 input {
+    background-color: #f9c06b;
+    border-radius: 40px;
+    width: 100px;
+    height: 60px;
+    font-size:20 ;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.Different {
+    margin-top: 150px;
+    color: #60380a;
+}
+.Different h1 {
+    text-align: center;
+    width: 1400px;
+    font-size: 60px;
+    color: #60380a;
+    padding-bottom: 30px;
+}
+.Different p {
+    text-align: center;
+    font-size: 20px;
+}
+.Different_Menu {
+    display: flex;
+    margin-left: 50px;
+    margin-top: 50px;
+    width: 1400px;
+}
+.Different_Menu1 {
+    width: 300px;
+    text-align: center;
+    height: 400px;
+    background-color: #ffeed8;
+}
+.Different_Menu1 img {
+    width: 200px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.Different_Menu1 h3 {
+    margin-top: 15px;
+    font-size: 30px
+}
+.Different_Menu1 p {
+    margin-top: 15px;
+}
+.Different_Menu2 {
+    width: 300px;
+    height: 400px;
+    background-color: #fff9f1;
+    text-align: center;
+    margin-left: 35px;
+}
+.Different_Menu2 img {
+    width: 200px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.Different_Menu2 h3 {
+    margin-top: 15px;
+    font-size: 30px
+}
+.Different_Menu2 p {
+    margin-top: 15px;
+}
+.Different_Menu3 {
+    width: 300px;
+    height: 400px;
+    background-color: #fff9f1;
+    text-align: center;
+    margin-left: 35px;
+}
+.Different_Menu3 img {
+    width: 200px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.Different_Menu3 h3 {
+    margin-top: 15px;
+    font-size: 30px
+}
+.Different_Menu3 p {
+    margin-top: 15px;
+}
+.Different_Menu4 {
+    width: 300px;
+    height: 400px;
+    background-color: #fff9f1;
+    text-align: center;
+    margin-left: 35px;  
+}
+.Different_Menu4 img {
+    width: 200px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.Different_Menu4 h3 {
+    margin-top: 15px;
+    font-size: 30px
+}
+.Different_Menu4 p {
+    margin-top: 15px;
+}
+.Different_Under {
+    text-align: center;
+}
+.Different_Under p {
+    margin-top: 30px;
+    font-size: 20px;
+}
+.Different_Under h3 {
+    font-size: 40px;
+    margin-top: 10px;
+}
+.Different_Under input {
+    background-color: #f9c06b;
+    border-radius: 40px;
+    width: 100px;
+    height: 60px;
+    font-size:20 ;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.Change {
+    background-image: url(Img/content3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 100px;
+}
+.Change_left {
+    color: white;
+    width: 700px;   
+    float: left;
+}
+.Change_left h1 {
+    width: 700px;
+    font-size: 60px;
+    padding-bottom: 30px;
+    padding-top: 100px;
+}
+.Change_left p {
+    margin-left: 50px;
+    font-size: 20px;
+}
+.Change_left input {
+    background-color: #f9c06b;
+    border-radius: 40px;
+    width: 100px;
+    height: 60px;
+    font-size:20 ;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.Change_right {
+    margin-left: 900px;
+}
+.Feedback {
+    color: #60380a;
+    margin-top: 100px;
+    background-color: #fff9f1;
+}
+.Feedback h1 {
+    text-align: center;
+    width: 1400px;
+    font-size: 60px;
+    color: #60380a;
+    padding-bottom: 30px;
+}
+.Feedback p {
+    text-align: center;
+    font-size: 20px;
+}
+.Feedback_Under p{
+    margin-top: 30px;
+}
+.Feedback_Under h3 {
+    text-align: center;
+    font-size: 40px;
+}
+.Feedback_Under img {
+    margin-left: 625px;
+    width: 200px;
+    margin-top: 30px;
+}
+.Subscribe {
+    margin-top: 100px;
+    color: white;
+    background-image: url(Img/content3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+.Subscribe h1 {
+    width: 1400px;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 50px;
+}
+.Subscribe p {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 20px;
+}
+.Subscribe_input input {
+    margin-left: 450px;
+    margin-top: 30px;
+    width: 400px;
+    height: 50px;
+}
+.Subscribe_input button {
+    background-color: #f9c06b;
+    height: 50px; 
+    width: 100px;
+    margin-left: -5px;
+}
+footer {
+    background-image: url(Img/fotter_image.png);
+    background-color: #60380a;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 500px;
+}
+.Bean {
+    margin-left: 50px;
+}
+.Bean h3{
+    font-size: 40px;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+.Bean p {
+    color: white;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+.icon {
+    display: flex;
+
+}
+.About {
+    padding-top: 110px;
+    padding-left: 100px;
+}
+.About h3 {
+    font-size: 30px;
+    color: white;
+    padding-bottom: 30px;
+}
+.About ul li a {
+    font-size: 20px;
+}
+.Company{
+    padding-top: 110px;
+    padding-left: 60px;
+}
+.Company h3 {
+    font-size: 30px;
+    color: white;
+    padding-bottom: 30px;
+}
+.Company ul li a {
+    font-size: 20px;
+}
+.Contact{
+    padding-top: 110px;
+    padding-left: 60px;
+}
+.Contact h3 {
+    font-size: 30px;
+    color: white;
+    padding-bottom: 30px;
+}
+.Contact ul li a {
+    font-size: 20px;
+}

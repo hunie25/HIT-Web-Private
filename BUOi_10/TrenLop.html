@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="content">
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            <span class="more">
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            </span>
+        </p>
+        <button onclick="toggleText()">Xem thêm</button>
+    </div>
+    <script>
+        // trim(): kiem tra va xoa khoang trong dau va cuoi string.
+        // includes(): Kiem tra va tim kiem chuoi con
+        // const productName = "iPhone 15 Pro Max";
+        // const keyword = "iphone";
+        // Cần chuyển về chữ thường để tìm chính xác hơn
+        // const isMatch = productName.toLowerCase().includes(keyword.toLowerCase()); 
+        // Kết quả: true -> Hiển thị sản phẩm này
+        function toggleText() {
+        const more = document.querySelector(".more");
+        const btn = document.querySelector("button");   
+
+            if (more.style.display === "none") {
+                more.style.display = "inline";
+                btn.textContent = "Thu gọn";
+            } else {
+                more.style.display = "none";
+                btn.textContent = "Xem thêm";
+            }
+        }
+    </script>
+</body>
+</html>
